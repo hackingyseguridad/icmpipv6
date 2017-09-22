@@ -9,7 +9,7 @@
 # ICMPv6 neighbor advertisement (ICMPv6 type 136).
 echo
 echo "...Script para envio de n Icmp IPv6 Neigbord Discovery" 
-echo "Uso: ./ipv6.sh IPv6 Num_peticiones"
+echo "Uso: ./icmpipv6.sh IPv6 Num_peticiones"
 for i in 1 `seq 1 $1`
 do
 echo $i
