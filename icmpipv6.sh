@@ -11,10 +11,10 @@
 # tracert6, a ICMPv6 Echo Request based traceroute,
 # tcpspray6, a TCP/IP Discard/Echo bandwidth metter.
 echo
-echo "...Script para envio de n Icmp IPv6 Neigbord Discovery" 
+echo "...Script para envio de n Icmp IPv6" 
 echo "Uso: ./icmpipv6.sh IPv6 Num_peticiones"
-for i in 1 `seq 1 $1`
+for i in 1 `seq 1 $2`
 do
 echo $i
-ndisc6 -1 $2 eth0
+ping6 $1
 done
