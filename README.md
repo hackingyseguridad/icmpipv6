@@ -9,6 +9,7 @@
 # ICMPv6 neighbor discovery requires two types of ICMPv6
 # ICMPv6 Neighbor solicitation (ICMPv6 Type 135) 
 # ICMPv6 neighbor advertisement (ICMPv6 type 136).
+# https://www.youtube.com/watch?v=_rXH8XpXXQ0
 echo
 echo "...Script para envio de n Icmp IPv6 Neigbord Discovery" 
 echo "Uso: ./ipv6.sh IPv6 Num_peticiones"
