@@ -14,6 +14,11 @@
 # tcptraceroute6, a TCP/IPv6-based traceroute implementation,
 # tracert6, a ICMPv6 Echo Request based traceroute,
 # tcpspray6, a TCP/IP Discard/Echo bandwidth metter.
+# Sending Multicast Ping Requets
+# ping6 -c5 ff02::1 -I eth0
+# IPv6 Addresses
+# ip -6 neigth
+# Scan con Nessus
 echo
 echo "...Script para envio de n Icmp IPv6 Neigbord Discovery" 
 echo "Uso: ./ipv6.sh IPv6 Num_peticiones"
