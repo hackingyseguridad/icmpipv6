@@ -19,6 +19,19 @@
 # IPv6 Addresses
 # ip -6 neigth
 # Scan con Nessus
+neighbour discovery:
+
+# trigger the discovery
+ping6 -c2 -I eth0 ff02::1
+# print the results:
+ip -6 neigh
+Or with the network interface specified in a shell variable and the commands put in a single command line:
+
+IFACE=eth0
+ping6 -c2 -I $IFACE ff02::1 && echo -e "\nIPv6 Neighbours:\n" && ip -6 neigh
+
+
+
 echo
 echo "...Script para envio de n Icmp IPv6 Neigbord Discovery" 
 echo "Uso: ./ipv6.sh IPv6 Num_peticiones"
