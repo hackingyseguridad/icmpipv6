@@ -1,6 +1,6 @@
 # icmpipv6 
 
-#!/bin/bash
+
 # https://es.wikipedia.org/wiki/Neighbor_Discovery
 # https://es.wikipedia.org/wiki/ICMPv6
 # ndisc6 opcion IPv6 eth0
@@ -30,14 +30,3 @@ Or with the network interface specified in a shell variable and the commands put
 
 IFACE=eth0
 ping6 -c2 -I $IFACE ff02::1 && echo -e "\nIPv6 Neighbours:\n" && ip -6 neigh
-
-
-
-echo
-echo "...Script para envio de n Icmp IPv6 Neigbord Discovery" 
-echo "Uso: ./ipv6.sh IPv6 Num_peticiones"
-for i in 1 `seq 1 $1`
-do
-echo $i
-ndisc6 -1 $2 eth0
-done
