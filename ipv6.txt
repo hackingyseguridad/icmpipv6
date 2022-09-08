@@ -67,13 +67,20 @@ eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
 fde8:39:a130:0:9fbb:ff3b:6332:de2b , es dirección IPv6 de enlace local (Link-local),
 calculada automaticamente a partir del valor de la dirección MAC de la tarjeta de red 
 
-fe80::a277:5444:5879:9de4, es otra direccion IPv6 de enlace local (Link-local), no enrutable
+fe80::a277:5444:5879:9de4,  direccion IPv6 de enlace local (Link-local), no enrutable
 
 f0:4d:a2:f7:55:86 MAC address de la interface Ethernet eth1, de este PC
 
 Las IPv6 LinkLocal, o IPv6 locales de enalce, pueden comunicarse con otros hosts y routers en el ambito LAN, incluso servir para la resolucion DNS con el DNS del router que haga de puerta de enlace.
 
+por ej,
+# para ver las link-local generadas en nuestra red!
+ip -6 neigh
 
+Vemos la IPv6 de enlace local del router, 
+
+ping6 fe80::7a29:edff:fe0b:b5b7
+nmap -6 fe80::7a29:edff:fe0b:b5b7
 
 Referncias:
 https://bgp.he.net/AS3352
