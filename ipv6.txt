@@ -70,6 +70,10 @@ calculada automaticamente a partir del valor de la dirección MAC de la tarjeta 
 f0:4d:a2:f7:55:86 MAC address de la interface Ethernet eth1, de este PC
 
 Referncias:
+https://bgp.he.net/AS3352
+https://www.lacnic.net/3195/1/lacnic/
+https://test-ipv6.com/index.html.es_ES
+https://es.wikipedia.org/wiki/IPv6
 https://es.wikipedia.org/wiki/Dirección_de_Enlace-Local
 https://github.com/hackingyseguridad/scan/blob/master/mac2linklocal.sh
 
