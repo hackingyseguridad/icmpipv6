@@ -24,7 +24,7 @@ Prefix /64: 2a02:9140:3c00:5300 dentro del prefix el ultimo octeto seria el ID S
 
 Para un prefix /64 el numero total de combinaciones y por tanto de direcciones posibles seria  18.446.744.073.709.551.616 
 
-Carlculadora IPv6 https://www.vultr.com/es/resources/subnet-calculator-ipv6/ 
+Carlculadora subneting IPv6 https://www.vultr.com/es/resources/subnet-calculator-ipv6/ 
 IP reservadas por AS3352 Telefonica Esp https://bgp.he.net/AS3352#_prefixes6
 whois -h whois.radb.net -i origin 3352 | awk '/^route:/ {print $2;}' | sort | uniq
 whois -h whois.radb.net -i origin 3352 | awk '/^route6:/ {print $2;}' | sort | uniq
