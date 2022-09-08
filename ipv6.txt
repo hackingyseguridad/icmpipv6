@@ -69,7 +69,7 @@ calculada automaticamente a partir del valor de la dirección MAC de la tarjeta 
 
 f0:4d:a2:f7:55:86 MAC address de la interface Ethernet eth1, de este PC
 
-Las IPv6 LinkLocal, pueden comunicarse con nodos (hosts y enrutadores) en un ambito LAN, incluso servir para la resolucion DNS con el router.
+Las IPv6 LinkLocal, o IPv6 locales de enalce, pueden comunicarse con otros hosts y routers en el ambito LAN, incluso servir para la resolucion DNS con el DNS del router que haga de puerta de enlace.
 
 
 
