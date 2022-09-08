@@ -35,7 +35,7 @@ whois -h whois.radb.net -i origin 3352 | awk '/^route6:/ {print $2;}' | sort | u
 
 Global Unicast: Que tiene prefijo 2a02:9140:3c00:5300:d14d:2dac:f742:387c/64
 
-Link-local: No son enrutables. Suelen empezar por FE80::/10. Al arracan un sistema con SLAAC. calcula por la MAC y autoasigna Por ej.: fe80::a277:5444:5879:9de4
+Link-local: No son enrutables. Suelen empezar por FE80::/10. Al arracan un sistema con SLAAC. calcula por la MAC y autoasigna Por ej.: fe80::a277:5444:5879:9de4 . 
 
 loppback: :1/128
 
@@ -68,6 +68,10 @@ fde8:39:a130:0:9fbb:ff3b:6332:de2b , es dirección IPv6 de enlace local (Link-lo
 calculada automaticamente a partir del valor de la dirección MAC de la tarjeta de red 
 
 f0:4d:a2:f7:55:86 MAC address de la interface Ethernet eth1, de este PC
+
+Las IPv6 LinkLocal, pueden comunicarse con nodos (hosts y enrutadores) en un ambito LAN, incluso servir para la resolucion DNS con el router.
+
+
 
 Referncias:
 https://bgp.he.net/AS3352
