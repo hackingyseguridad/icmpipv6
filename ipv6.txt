@@ -22,6 +22,8 @@ Una dirección IPv6 consta de 4 octetos de 8 bit, con una logngitud total de 128
 
 Prefix /64: 2a02:9140:3c00:5300 dentro del prefix el ultimo octeto seria el ID Subnet es 5300 /16, e interface: d14d:2dac:f742:387c direcciones disponibles!
 
+# Subneting, hacer subredes modificando el ID Subred y el prefix/mascara
+
 Para un prefix /64 el numero total de combinaciones y por tanto de direcciones posibles seria  18.446.744.073.709.551.616 
 
 Podemos hacer subneting, hacer subredes con en el ID subred y con un numero de IP disponbles para cada subred.
