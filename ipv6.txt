@@ -37,6 +37,16 @@ IP reservadas por AS3352 Telefonica Esp https://bgp.he.net/AS3352#_prefixes6
 whois -h whois.radb.net -i origin 3352 | awk '/^route:/ {print $2;}' | sort | uniq
 whois -h whois.radb.net -i origin 3352 | awk '/^route6:/ {print $2;}' | sort | uniq
 
+IPv6 asignado a Telefonca
+2a02:9::::::/23
+
+nuestra IP asiganada en FTTH Dual Stack
+2a02:9140:3c00:5300:d14d:2dac:f742:387c/64
+Prefix = 2a02:9140:3c00:5300
+id Subnet = 5300
+Eth1 de PC KALI Linux = d14d:2dac:f742:387c
+2a02:9140:3c00:5300:d14d:2dac:f742:387c
+
 # Tipos de IPv6, segun la IANA, que es la entidad que supervisa la asignación global de direcciones IP: Unicast, Multicast y Anycast
 
 1º.- Unicas o especiales!  identifica un único interfaz de red
