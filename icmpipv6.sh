@@ -1,4 +1,5 @@
 #!/bin/bash
+# (c) hacking y seguridad .com 2022
 echo
 echo "...Script para envio de ping Icmp IPv6" 
 echo "Por ejemplo IPv6 google.com 2a00:1450:4003:801::200e"
